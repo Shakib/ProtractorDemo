@@ -17,6 +17,7 @@ describe('Demo calculator test', () => {
         expect(result.getText()).toEqual('5');
 
         Browser.sleep(2000);
+        Browser.sleep(1000);
 
     })
 })
